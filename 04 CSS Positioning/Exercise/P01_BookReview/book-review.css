@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #333333;
+    background: linear-gradient(to bottom, rgba(86, 119, 135, 10), rgba(18, 31, 37, 100)) no-repeat center center;
+}
+
+.clearfix:after {
+    content: '';
+    display: none;
+    clear: both;
+}
+
+/*NAVIGATION START*/
+
+.navigation {
+    background-color: #eff4f7;
+    margin: 40px;
+    position: relative;
+    z-index: 5;
+    height: 60px;
+}
+
+.navigation a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: #a4a8a9;
+}
+
+.navigation ul {
+    padding-right: 20px;
+    float: right;
+    line-height: 60px;
+    margin-top: -3px;
+}
+
+.navigation ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 20px;
+    border-bottom: transparent 3px;
+}
+
+.navigation ul li:hover {
+    cursor: pointer;
+    border-bottom: solid 3px #70e9ff;
+    color: #333333;
+}
+
+/*NAVIGATION END*/
+/*SECTION LOGO START*/
+
+.logo {
+    position: absolute;
+    z-index: 0;
+    top: 10px;
+    left: 550px;
+    background-color: #ea3d51;
+    width: 90px;
+    height: 90px;
+    margin: 20px;
+}
+
+.brand {
+    font-weight: 800;
+    font-size: 2rem;
+    letter-spacing: 10px;
+    color: #FFFFFF;
+    margin-top: 66px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/*SECTION LOGO END*/
+/*SECTION HEADER START*/
+
+.book-title {
+    position: relative;
+    z-index: 10;
+    color: #121f25;
+    font-size: 3.85rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    text-align: center;
+}
+
+.book-genre {
+    position: relative;
+    top: -90px;
+    left: 80px;
+    color: #6dffb8;
+    font-size: 8.6rem;
+    text-transform: uppercase;
+    text-align: center;
+    z-index: 3;
+}
+
+/*SECTION HEADER END*/
+/*SECTION REVIEW START*/
+
+.review {
+    position: relative;
+    margin: 0 auto;
+    color: #FFFFFF;
+    width: 300px;
+    padding: 40px;
+    text-align: center;
+    background: linear-gradient(to bottom, rgba(235, 60, 83, 10), rgba(230, 19, 62, 100)) no-repeat center center;
+    z-index: 8;
+}
+
+.review img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 80px;
+    border-radius: 50%;
+}
+
+.review p:first-of-type {
+    font-size: 2.1rem;
+    margin: 10px;
+    letter-spacing: 5px;
+}
+
+.review p:last-of-type:before, .review p:last-of-type:after {
+    content: '"';
+    color: #af213d;
+    font-size: 2.1rem;
+    font-weight: 800;
+}
+
+.review button {
+    background: none;
+    border: solid 3px #70ecff;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    color: #FFFFFF;
+    padding: 10px 25px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.review button:hover {
+    background: #70ecff;
+    color: #348098;
+}
+
+/*SECTION REVIEW END*/
+/*SECTION READ BOOK START*/
+
+.read-book {
+    position: relative;
+    top: -250px;
+    background: #FFFFFF;
+    margin: 50px;
+    padding: 250px 35px 35px 35px;
+    z-index: 4;
+}
+
+.read-book h1 {
+    color: #46ee97;
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.read-book p {
+    width: 70%;
+}
+
+.read-book button {
+    background: none;
+    border: solid 3px #628291;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    color: #333333;
+    padding: 10px 25px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.read-book button:hover {
+    background-color: #628291;
+    color: #6dffb8;
+}
+/*SECTION READ BOOK END*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #1E1917;
+}
+
+body {
+    background: #eeeeee;
+}
+
+.main {
+    max-width: 800px;
+    margin: 30px auto;
+}
+
+.header {
+    background: #FFFFFF;
+    border-top: solid 5px #324E5A;
+    border-right: solid 5px #324E5A;
+    line-height: 3rem;
+    margin-bottom: 30px;
+}
+
+.header h1 {
+    margin: 30px;
+    font-size: 3rem;
+    color: #324E5A;
+}
+
+.shorter {
+    width: 250px;
+}
+
+form {
+    width: 600px;
+    margin-left: 30px;
+}
+
+label, input, p, a {
+    width: 600px;
+    line-height: 30px;
+    margin-top: 5px;
+    padding-left: 5px;
+    outline: none;
+}
+
+.border {
+    border-top: solid 3px #324E5A;
+    border-left: solid 3px #324E5A;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    width: 30px;
+}
+
+input[type="radio"] {
+    margin-top: 13px;
+}
+
+.checkbox-area {
+    background: #FFFFFF;
+}
+
+.checkbox-area label {
+    display: block;
+}
+
+a {
+    color: #136F63;
+    text-decoration: underline;
+}
+
+input[type="submit"] {
+    width: 250px;
+    margin-left: 30px;
+    margin-top: 30px;
+    padding: 10px 0;
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    letter-spacing: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+input[value="SAVE"] {
+    color: #136F63;
+    border-bottom: solid 3px #136F63;
+    border-right: solid 3px #136F63;
+}
+
+input[value="SAVE"]:hover {
+    background: #136F63;
+    color: #FFFFFF;
+}
+
+input[value="CANCEL"] {
+    color: #ff5428;
+    border-bottom: solid 3px #ff5428;
+    border-right: solid 3px #ff5428;
+}
+
+input[value="CANCEL"]:hover {
+    background: #ff5428;
+    color: #FFFFFF;
+}
+
+.aside {
+    width: 150px;
+    text-align: right;
+    margin-top: 30px;
+}

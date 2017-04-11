@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Calibri Light', 'Verdana', sans-serif;
+}
+
+.main {
+    width: 890px;
+    height: 450px;
+    line-height: 450px;
+    font-size: 0;
+    border: solid 2px #a5b2b3;
+    margin: 20px auto;
+}
+
+.article {
+    display: inline-block;
+    font-size: 1rem;
+    line-height: 1.1rem;
+    width: 202px;
+    height: 450px;
+    margin: 0 10px;
+    vertical-align: middle;
+}
+
+.article h3 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.article img {
+    width: 202px;
+}
+
+.article img:hover {
+    opacity: 0.4;
+}
+
+.article p {
+    margin-top: 20px;
+}

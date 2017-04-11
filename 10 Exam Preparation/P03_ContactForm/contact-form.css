@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+html, body {
+    min-height: 100%;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    background: #eaf0f1;
+}
+
+form.flex {
+    max-width: 960px;
+    margin: 50px auto;
+    flex-direction: column;
+    background: #FFFFFF;
+    border-radius: 10px;
+    -webkit-box-shadow: 2px 4px 7px 0px rgba(154,169,171,0.64);
+    -moz-box-shadow: 2px 4px 7px 0px rgba(154,169,171,0.64);
+    box-shadow: 2px 4px 7px 0px rgba(154,169,171,0.64);
+}
+
+header {
+    font-size: 1.13rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    background: #ff4f00;
+    line-height: 4rem;
+    height: 4rem;
+    border-radius: 10px 10px 0 0;
+    padding-left: 15px;
+}
+
+section.flex {
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 25px 15px;
+}
+
+.input-wrapper {
+    margin-top: 15px;
+    position: relative;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+label:first-of-type {
+    margin-top: 0;
+}
+
+label::after {
+    content: '*';
+    color: #ff4f00;
+}
+
+input {
+    width: 420px;
+    height: 2rem;
+    padding-left: 10px;
+    margin-left: 2rem;
+    border-radius: 0 5px 5px 0;
+    border: 2px solid #eeeeee;
+    outline: none;
+}
+
+textarea {
+    width: 420px;
+    height: 250px;
+    padding-left: 10px;
+    margin-left: 2rem;
+    border-radius: 0 5px 5px 5px;
+    border: 2px solid #eeeeee;
+    outline: none;
+}
+
+.fa {
+    line-height: 2rem;
+    text-align: center;
+    width: 2rem;
+    background: #eeeeee;
+    border-radius: 5px 0 0 5px;
+    position: absolute;
+    left: 0;
+    top: 1.65rem;
+}
+
+footer {
+    height: 3rem;
+    background: #ff4f00;
+    border-radius: 0 0 10px 10px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+footer:hover {
+    background: #565656;
+}
+
+a {
+    line-height: 3rem;
+    padding: 5px 15px;
+}

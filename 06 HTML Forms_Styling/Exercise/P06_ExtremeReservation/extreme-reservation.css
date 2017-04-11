@@ -1,0 +1,162 @@
+html {
+    font-family: 'Arial', 'Helvetica', sans-serif;
+    font-size: 14px;
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    background: url("images/background.jpg") no-repeat;
+    background-size: cover;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.header {
+    text-align: center;
+    height: 50px;
+    margin: 30px auto;
+}
+
+.nav li {
+    color: #33649e;
+    display: inline-block;
+    font-size: 22px;
+    margin: 0 10px;
+    height: 32px;
+}
+
+.nav a {
+    padding: 5px 5px 5px 40px;
+    background-size: contain;
+}
+
+.nav li:first-child a {
+    background: url("images/paraglider-icon.png") no-repeat;
+    background-size: contain;
+}
+
+.nav li:first-child a:hover {
+    background: url("images/paraglider-icon.png") no-repeat, #6da7cd;
+    background-size: contain;
+    border-radius: 5px;
+}
+
+.nav li:nth-child(2) a {
+    background: url("images/sky-diver.png") no-repeat;
+    background-size: contain;
+}
+
+.nav li:nth-child(2) a:hover {
+    background: url("images/sky-diver.png") no-repeat, #6da7cd;
+    background-size: contain;
+    border-radius: 5px;
+}
+
+.nav li:nth-child(3) a {
+    background: url("images/climbing.png") no-repeat;
+    background-size: contain;
+}
+
+.nav li:nth-child(3) a:hover {
+    background: url("images/climbing.png") no-repeat, #6da7cd;
+    background-size: contain;
+    border-radius: 5px;
+}
+
+.nav li:last-child a {
+    background: url("images/about-us.png") no-repeat;
+    background-size: contain;
+}
+
+.nav li:last-child a:hover {
+    background: url("images/about-us.png") no-repeat, #6da7cd;
+    background-size: contain;
+    border-radius: 5px;
+}
+
+.fieldset {
+    width: 380px;
+    height: 280px;
+    margin: 0 10px;
+    border-radius: 15px;
+    border: solid 2px #33649e;
+    color: #33649e;
+    text-align: center;
+}
+
+.fieldset legend {
+    text-align: center;
+    color: #33649e;
+    margin-bottom: 30px;
+}
+
+.fieldset input, .fieldset select {
+    width: 350px;
+    height: 30px;
+    outline: none;
+    border: solid 1px #33649e;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.3);
+    padding-left: 30px;
+    margin: 10px 0;
+}
+
+.fieldset select{
+    color: #33649e;
+}
+
+.fieldset optgroup {
+    background: #bee0e9;
+}
+
+input::-webkit-input-placeholder {
+    color: #33649e;
+}
+
+label {
+    line-height: 15px;
+}
+
+input[type="radio"] {
+    width: 15px;
+    height: 15px;
+    margin-left: 20px;
+}
+
+input[type="submit"] {
+    margin: 10px 5px;
+    padding: 10px 15px;
+    background: none;
+    border: none;
+}
+
+input[value="Clear"] {
+    border: solid 2px red;
+    border-radius: 15px;
+    cursor: pointer;
+    color: red;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+input[value="Clear"]:hover {
+    background: red;
+    color: #FFFFFF;
+}
+
+input[value="Send"] {
+    border: solid 2px #1eff1d;
+    border-radius: 15px;
+    cursor: pointer;
+    color: #1eff1d;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+input[value="Send"]:hover {
+    background: #1eff1d;
+    color: #FFFFFF;
+}

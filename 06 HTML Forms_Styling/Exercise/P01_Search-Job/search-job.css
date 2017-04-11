@@ -1,0 +1,102 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+ul, nav, label {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 14px;
+    font-family: 'Tahoma', 'Helvetica', sans-serif;
+    padding: 80px 50px;
+}
+
+.nav {
+    width: 70%;
+    margin: 0 auto;
+}
+
+ul {
+    background: #384452;
+}
+
+.nav-item {
+    display: inline-block;
+    list-style-type: none;
+    padding: 25px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    margin-left: 15px;
+    color: #8BAEC2;
+}
+
+.nav-item a:before {
+    font-family: 'FontAwesome', serif;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.nav-item:first-child a::before {
+    content: "\f002";
+}
+
+.nav-item:nth-child(2) a::before {
+    content: "\f02c";
+}
+
+.nav-item:nth-child(3) a::before {
+    content: "\f041";
+}
+
+.nav-item:nth-child(4) a::before {
+    content: "\f007";
+}
+
+.nav-item:hover {
+    background: #3BBC96;
+}
+
+.nav-item:hover a {
+    color: #FFFFFF;
+}
+
+form {
+    background: #eeeeee;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+label {
+    color: #374574;
+    display: block;
+    font-weight: bold;
+    width: 210px;
+    margin-left: 38px;
+    margin-top: 20px;
+}
+
+input {
+    border: solid 1px #CDCDCD;
+    margin: 20px 0;
+    height: 46px;
+    padding-left: 14px;
+}
+
+button {
+    margin-left: 38px;
+    width: 210px;
+    height: 46px;
+    text-transform: uppercase;
+    background: #384452;
+    color: #CED1CA;
+}
+
+button:hover {
+    background: #3BBC96;
+    color: #FFF7E4;
+    cursor: pointer;
+}

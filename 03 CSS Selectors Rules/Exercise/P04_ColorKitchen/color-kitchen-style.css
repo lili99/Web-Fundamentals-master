@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Sansita');
+
+html, body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Sansita', sans-serif;
+    font-size: 20px;
+    background: url("images/bg.jpg") repeat;
+    width: 100%;
+    height: 100%;
+}
+
+p {
+    line-height: 25px;
+    font-size: 1rem;
+    margin: 0;
+    margin-top: 20px;
+}
+
+li, a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/*HEADER SECTION START*/
+
+body > header {
+    background: rgb(255,0,0);
+    background: -moz-linear-gradient(left,  rgba(255,0,0,1) 0%, rgba(255,0,0,1) 33%, rgba(255,0,0,1) 33%, rgba(0,255,0,1) 33%, rgba(0,255,0,1) 33%, rgba(0,255,0,1) 66%, rgba(0,0,255,1) 66%, rgba(0,0,255,1) 100%);
+    background: -webkit-linear-gradient(left,  rgba(255,0,0,1) 0%,rgba(255,0,0,1) 33%,rgba(255,0,0,1) 33%,rgba(0,255,0,1) 33%,rgba(0,255,0,1) 33%,rgba(0,255,0,1) 66%,rgba(0,0,255,1) 66%,rgba(0,0,255,1) 100%);
+    background: linear-gradient(to right,  rgba(255,0,0,1) 0%,rgba(255,0,0,1) 33%,rgba(255,0,0,1) 33%,rgba(0,255,0,1) 33%,rgba(0,255,0,1) 33%,rgba(0,255,0,1) 66%,rgba(0,0,255,1) 66%,rgba(0,0,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff0000', endColorstr='#0000ff',GradientType=1 );
+    color: yellow;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 2rem;
+    height: 40px;
+    line-height: 40px;
+    padding-bottom: 7px;
+}
+
+/*HEADER SECTION END*/
+
+/*ASIDE SECTION START*/
+
+aside {
+    background-color: rgba(245, 230, 254, 0.9);
+    float: left;
+    width: 16.6%;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+}
+
+aside header {
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: left;
+    padding-left: 10px;
+}
+
+/*aside nav {*/
+    /*padding-left: 10px;*/
+/*}*/
+
+aside ul {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+aside ul li {
+    list-style: none;
+    font-size: 1rem;
+    padding:0 10px;
+    margin-top: 5px;
+    border-radius: 8px;
+    display: block;
+}
+
+aside ul li a {
+    line-height: 24px;
+    position: relative;
+    padding-left: 28px;
+}
+
+aside ul li a:before {
+    content: url("images/a.png");
+    margin-right: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+aside ul li:nth-child(-n+2):hover {
+    background-color: #ff0000;
+}
+
+aside ul li:nth-child(3):hover, aside ul li:nth-child(4):hover {
+    background-color: #00ff00;
+}
+
+aside ul li:nth-last-child(-n+2):hover {
+    background-color: #800080;
+}
+
+/*ASIDE SECTION END*/
+/*MAIN SECTION START*/
+
+main {
+    width: 58.33%;
+    float: left;
+}
+article {
+    background-color: rgba(245, 230, 254, 0.9);
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+}
+
+article header {
+    text-align: left;
+    color: white;
+    border-radius: 8px;
+    line-height: 40px;
+    padding-left: 10px;
+}
+
+article p:first-letter {
+    font-size: 2.5rem;
+}
+
+article p:first-line {
+    font-style: italic;
+}
+
+#webColors {
+    background-color: red;
+}
+
+#RGBA {
+    background-color: green;
+}
+
+#HSLHSV {
+    background-color: #800080;
+}
+
+/*MAIN SECTION END*/
+/*FOOTER SECTION START*/
+
+footer a {
+    font-size: 0.9rem;
+    text-decoration: underline;
+    color: #4F6865;
+}
+
+/*FOOTER SECTION END*/

@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #3c3f49;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clearfix:after {
+    content: '';
+    display: none;
+    clear: both;
+}
+
+.overflow {
+    overflow: hidden;
+}
+
+/*HEADER START*/
+
+.header {
+    min-height: 715px;
+    background: linear-gradient(
+            rgba(60, 63, 73, 0.9),
+            rgba(60, 63, 73, 0.9)),
+            url("img/header-bg.png") center no-repeat;
+    background-size: cover;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.header-link {
+    margin-top: 50px;
+    margin-left: 30px;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.header-link:nth-child(2) {
+    margin-right: 30px;
+}
+
+.header-link:hover {
+    color: #fa692e;
+}
+
+.header h1 {
+    display: inline-block;
+    width: 650px;
+    font-size: 2rem;
+    font-weight: lighter;
+    text-align: left;
+    margin-right: 110px;
+    margin-top: 240px;
+}
+
+.fa-play-circle {
+    cursor: pointer;
+    display: inline;
+}
+
+.fa-play-circle:hover {
+    color: #fa692e;
+}
+
+.fa-play-circle:after {
+    content: '\A';
+    white-space: pre;
+}
+
+.header-article {
+    display: inline-block;
+    text-align: left;
+    width: 320px;
+    height: 240px;
+    margin-top: 100px;
+    margin-left: 30px;
+    overflow: hidden;
+    border-bottom: solid 10px transparent;
+    cursor: pointer;
+}
+
+.header-article:hover {
+    border-bottom: solid 10px #fa692e;
+}
+
+.header-article .fa {
+    display: block;
+    margin-bottom: 60px;
+}
+
+/*HEADER END*/
+/*CITATE START*/
+
+.citate-section {
+    text-align: center;
+    padding-bottom: 15px;
+    position: relative;
+}
+
+.citate-aside {
+    display: inline-block;
+    width: 320px;
+    text-align: right;
+    margin-right: 40px;
+    margin-top: 80px;
+    vertical-align: top;
+}
+
+.citate-aside h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 30px 0 40px 0;
+}
+
+.citate-aside p {
+    text-transform: capitalize;
+}
+
+.citate-article {
+    display: inline-block;
+    width: 800px;
+    margin-top: 80px;
+}
+
+.citate-article figure {
+    margin-left: 60px;
+}
+
+.citate-article p {
+    text-align: left;
+}
+
+.citate-article P:first-of-type {
+    padding-bottom: 30px;
+    border-bottom: solid 2px lightgray;
+}
+
+.citate-article p:last-of-type {
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.colored-box {
+    height: 100%;
+    width: 420px;
+    position: absolute;
+    top: 0;
+    right: 15%;
+    background: rgba(250, 105, 46, 0.9);
+}
+
+/*CITATE END*/
+/*SCHEDULE START*/
+
+.schedule-section {
+    height: 650px;
+    background-color: #3c3e4a;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.schedule-heading {
+    font-size: 2rem;
+    text-align: left;
+    width: 35%;
+    margin-left: 150px;
+    margin-top: 60px;
+}
+
+.schedule-article {
+    width: 500px;
+    display: inline-block;
+    text-align: left;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+
+.schedule-article li {
+    display: inline-block;
+}
+
+.schedule-hours {
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.schedule-description {
+    font-weight: lighter;
+    text-transform: capitalize;
+    margin-left: 30px;
+}
+
+.orange-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    text-align: center;
+    background-color: #fa692e;
+
+}
+
+/*SCHEDULE END*/
+/*SPEAKERS START*/
+
+.speakers-section {
+    text-align: center;
+    margin-top: 60px;
+    padding-bottom: 150px;
+}
+
+.speakers-heading {
+    display: inline-block;
+    width: 500px;
+    font-size: 1.5rem;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.speakers-section h3 {
+    display: inline-block;
+    width: 600px;
+    font-size: 1rem;
+    margin-bottom: 40px;
+}
+
+.speakers-wrapper {
+    max-width: 80%;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 0 auto;
+}
+
+.speakers-article {
+    margin-right: 30px;
+    margin-top: 30px;
+    box-shadow: 10px 10px 15px -5px rgba(0,0,0,0.25);
+}
+
+.speaker-img {
+    width: 250px;
+}
+
+.speaker-name {
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: left;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.speaker-job {
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: lighter;
+    text-align: left;
+    color: #fa692e;
+    margin: 20px 0 20px 40px;
+}
+
+/*SPEAKERS END*/
+/*EVENTS START*/
+
+.events-section {
+    height: 550px;
+    background-color: #3c3e4a;
+    color: #FFFFFF;
+}
+
+.events-article {
+    border: solid 2px lightgray;
+    max-width: 80%;
+    margin: 80px auto;
+    text-align: center;
+}
+
+.events-heading {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-top: 100px;
+}
+
+.events-text {
+    width: 520px;
+    font-size: 1rem;
+    margin: 50px auto;
+}
+
+.events-email {
+    display: inline-block;
+    margin-bottom: 60px;
+    margin-right: 50px;
+    padding-right: 80px;
+    border-bottom: solid 3px #fa692e;
+}
+
+.events-link {
+    padding: 7px 25px;
+    text-transform: uppercase;
+    border-radius: 15px;
+    background-color: #fa692e;
+}
+
+.events-link:hover {
+    background-color: #292a2f;
+    color: #FFFFFF;
+}
+
+/*EVENTS END*/
+/*FOOTER START*/
+
+.footer {
+    height: 80px;
+    background-color: #292a2f;
+    color: #FFFFFF;
+    justify-content: space-between;
+    padding: 0 20px;
+    align-items: center;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.footer p:last-of-type {
+    color: lightgray;
+    width: 250px;
+}
+
+/*FOOTER END*/

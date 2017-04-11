@@ -1,0 +1,21 @@
+.my-list {
+    margin: 0 auto;
+    background: #f7f381;
+    width: 200pt;
+    padding: 10pt;
+    box-shadow: 0pt 0pt 2pt 2pt #888;
+}
+
+h1 {
+    margin: 0pt;
+}
+
+p {
+    margin: 5pt auto;
+    text-align: center;
+}
+
+ol {
+    margin-top: 10pt;
+    margin-bottom: 0pt;
+}

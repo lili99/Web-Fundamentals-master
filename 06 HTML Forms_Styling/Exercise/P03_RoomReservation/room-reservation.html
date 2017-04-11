@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Room Reservation</title>
+    <link rel="stylesheet" href="custom-reset.css">
+    <link rel="stylesheet" href="room-reservation.css">
+</head>
+<body>
+<header class="header">
+    <h1>Room Reservation</h1>
+</header>
+
+<main class="main">
+    <form class="form" method="post">
+        <div class="upper-block flex">
+            <div class="info-block">
+                <h2>Basic Information</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at nibh varius odio sollicitudin blandit nec eu elit. Suspendisse ac risus nunc, quis elementum lorem. Pellentesque vehicula egestas eros nec commodo.</p>
+            </div>
+            <div class="search-block">
+                <label for="search">Search</label>
+                <input type="search" name="search" id="search">
+            </div>
+        </div>
+        <div class="bottom-block flex">
+            <div class="person-details-block">
+                <h3>Personal Details</h3>
+                <input type="text" placeholder="First Name">
+                <input type="text" placeholder="Last Name">
+                <input type="email" placeholder="Enter email">
+            </div>
+            <div class="request-block flex">
+                <h3>Request a reservation</h3>
+                <div class="room-select">
+                    <label for="room">Select a Room</label>
+                    <select name="room" id="room">
+                        <option value="1">Room 1</option>
+                        <option value="2">Room 2</option>
+                        <option value="3">Room 3</option>
+                        <option value="4">Room 4</option>
+                    </select>
+                </div>
+                <div class="rooms-count">
+                    <label for="qtty">Number of Rooms</label>
+                    <input type="number" name="qtty" id="qtty" placeholder="1">
+                </div>
+                <div class="check-in">
+                    <label for="date-in">Check-In:</label>
+                    <input type="date" name="date-in" id="date-in">
+                </div>
+                <div class="check-out">
+                    <label for="date-out">Check-Out:</label>
+                    <input type="date" name="date-out" id="date-out">
+                </div>
+            </div>
+        </div>
+        <input class="button right" type="submit" value="Book Now">
+    </form>
+</main>
+</body>
+</html>

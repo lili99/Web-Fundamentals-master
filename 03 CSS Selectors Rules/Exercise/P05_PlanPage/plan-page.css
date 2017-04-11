@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+h1, h2, h3, p, button {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    min-height: 100%;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body, .select-plan {
+    background: linear-gradient(45deg,
+    rgba(253, 149, 192, 1) 0%,
+    rgba(195, 95, 204, 1) 38%,
+    rgba(175, 104, 241, 1) 66%,
+    rgba(175, 104, 241, 1) 84%,
+    rgba(168, 125, 255, 1) 100%) no-repeat;
+    border: 0;
+}
+
+.chosen-plan, .continue {
+    background: linear-gradient(235deg,
+    rgba(253, 149, 192, 1) 0%,
+    rgba(195, 95, 204, 1) 18%,
+    rgba(175, 104, 241, 1) 46%,
+    rgba(175, 104, 241, 1) 64%,
+    rgba(168, 125, 255, 1) 100%) no-repeat;
+    border: 0;
+}
+
+.continue:hover {
+    background: linear-gradient(45deg,
+    rgb(225, 165, 124) 0%,
+    rgb(225, 133, 101) 38%,
+    rgb(220, 103, 113) 66%,
+    rgb(219, 92, 109) 84%,
+    rgb(210, 85, 109) 100%) no-repeat;
+}
+
+main {
+    width: 83.33%;
+    background-color: #2d3154;
+    border-radius: 20px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: flex-start;
+}
+
+ul {
+
+}
+
+.plan-types {
+    order: 1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: stretch;
+    align-content: center;
+}
+
+    #basic-plan {
+        order: 1;
+        display: inline-block;
+        flex: 0 1 200px;
+        align-self: stretch;
+        background: url("img/plan-background-basic.png") no-repeat top;
+        background-size: contain;
+        background-color: rgba(255, 255, 255, 1);
+        min-height: 450px;
+        width: 300px;
+        border-radius: 20px;
+    }
+
+    #pro-plan {
+        order: 2;
+        display: inline-block;
+        flex: 0 1 200px;
+        align-self: stretch;
+        background: url("img/plan-background-pro.png") no-repeat top;
+        background-size: contain;
+        background-color: rgba(255, 255, 255, 1);
+        min-height: 450px;
+        width: 300px;
+        border-radius: 20px;
+    }
+
+    #med-plan {
+        order: 3;
+        display: inline-block;
+        flex: 0 1 200px;
+        align-self: stretch;
+        background: url("img/plan-background-med.png") no-repeat top;
+        background-size: contain;
+        background-color: rgba(255, 255, 255, 1);
+        min-height: 450px;
+        width: 300px;
+        border-radius: 20px;
+    }
+
+.information {
+    order: 2;
+    padding: 0 8.33%;
+    margin: 40px 0;
+}
+
+.information p {
+    margin-top: 20px;
+}
+
+.cards {
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.card-type {
+    position: relative;
+    margin: 20px;
+}
+
+.title {
+    font-size: 5rem;
+    text-align: left;
+    margin-top: 60px;
+}
+
+.price {
+    font-size: 6rem;
+    color: #2d3154;
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+.plan {
+    text-align: left;
+    color: #2d3154;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.select-plan {
+    position: absolute;
+    left: 120px;
+    bottom: -30px;
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    color: #FFF;
+    font-size: 2rem;
+}
+
+.chosen-plan {
+    position: absolute;
+    left: 120px;
+    bottom: -30px;
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    color: #FFF;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.next-step {
+    order: 3;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.next-step button {
+    color: #FFF;
+    font-size: 1rem;
+    padding: 15px 30px;
+    border-radius: 10px;
+}
+
+.next-step button:first-letter {
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

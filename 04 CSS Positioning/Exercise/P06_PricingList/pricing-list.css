@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Vollkorn');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    font-size: inherit;
+    color: inherit;
+}
+
+ul {
+    list-style-type: none;
+}
+
+html {
+    font-family: 'Tahoma', sans-serif;
+    font-size: 16px;
+    color: #7f8d98;
+    box-sizing: border-box;
+}
+
+.clearfix:after {
+    content: '';
+    display: none;
+    clear: both;
+}
+
+.header {
+    text-align: center;
+    font-family: 'Vollkorn', serif;
+    font-size: 40px;
+    color: inherit;
+    text-transform: uppercase;
+}
+
+.main {
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.article {
+    float: left;
+    width: 315px;
+    height: 500px;
+    border: solid 1px #ebeff2;
+    position: relative;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.article a {
+    height: 500px;
+    display: block;
+}
+
+.article:last-of-type {
+    margin-right: 0;
+}
+
+.article a:hover h2{
+    background-color: #65d3e2;
+}
+
+.article a:hover button {
+    background-color: #65d3e2;
+}
+
+.article a:hover p {
+    color: #65d3e2;
+}
+
+.article h2 {
+    text-align: center;
+    font-family: 'Vollkorn', serif;
+    font-size: 30px;
+    color: inherit;
+    text-transform: capitalize;
+    padding: 20px 0;
+}
+
+.article p {
+    display: block;
+    text-align: center;
+    font-family: 'Vollkorn', serif;
+    font-size: 60px;
+    color: inherit;
+}
+
+.article li {
+    line-height: 15px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 10px;
+    border-bottom: solid 1px #ebeff2;
+}
+
+.article li a {
+    font-size: 1rem;
+    color: inherit;
+}
+
+.article button {
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+    width: 255px;
+    height: 50px;
+    border: 0;
+    border-radius: 15px;
+    font-family: 'Vollkorn', serif;
+    font-size: 1rem;
+    text-transform: capitalize;
+    line-height: 50px;
+    color: #FFFFFF;
+    cursor: pointer;
+}

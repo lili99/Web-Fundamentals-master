@@ -1,0 +1,33 @@
+main {
+    width: 600px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+div {
+    padding: auto;
+    box-sizing: border-box;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #6495ed;
+    text-shadow: 0 0 5px white;
+}
+.left {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.right {
+    float: right;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.center {
+    clear: both;
+    margin: 10px auto;
+}

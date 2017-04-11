@@ -1,0 +1,61 @@
+﻿@media screen and (max-width: 1000px) {
+    header {
+        height: auto;
+    }
+
+    #logoarea {
+        display: block;
+        padding: 30px 0;
+        float: none;
+    }
+
+    #header-area-right, #menu, #search-form {
+        float: none;
+    }
+
+    #header-area-right {
+        height: auto;
+        padding: 0 0 10px 0;
+    }
+
+    #menu {
+        display: block;
+    }
+
+    #nav-menu {
+        justify-content: center;
+    }
+
+    #search-form {
+        margin: 10px 0;
+        width: 300px;
+    }
+
+    #publicphotos h1 {
+        text-align: center;
+    }
+
+    #p-albums-items {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 756px) {
+    #header-area-right {
+        width: 90%;
+    }
+
+    #nav-menu {
+        text-align: center;
+        flex-direction: column;
+    }
+
+    #nav-menu li {
+        margin: 0;
+    }
+
+    #nav-menu a {
+        padding: 7px 0;
+        width: 100%;
+    }
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Product Form</title>
+    <link rel="stylesheet" href="custom-reset.css">
+    <link rel="stylesheet" href="product-form.css">
+</head>
+<body>
+<main class="main flex">
+    <aside class="aside"></aside>
+    <section class="form-field">
+        <h1>Nike Roche Run</h1>
+        <h2>120$</h2>
+        <form method="post" class="form">
+            <label for="choose-size">Choose Size</label>
+            <select name="choose-size" id="choose-size">
+                <option value="1">XS</option>
+                <option value="2">S</option>
+                <option value="3">M</option>
+                <option value="4">L</option>
+            </select>
+
+            <label for="name">Name on card</label>
+            <input type="text" name="name" id="name" placeholder="Enter your name">
+            <label for="card">Card Number</label>
+            <input type="text" name="card" id="card" placeholder="Enter card number">
+            <input type="submit" value="continue" class="button">
+        </form>
+    </section>
+</main>
+</body>
+</html>

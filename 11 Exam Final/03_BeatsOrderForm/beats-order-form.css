@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+/*START RESET CSS*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    min-height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clearfix:after {
+    content: '';
+    display: none;
+    clear: both;
+}
+
+.overflow {
+    overflow: hidden;
+}
+
+/*END RESET CSS*/
+
+body {
+    height: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #a3a3a3;
+    background: rgb(21,54,63);
+    background: -moz-linear-gradient(-45deg, rgba(21,54,63,1) 0%, rgba(95,102,110,1) 100%);
+    background: -webkit-linear-gradient(-45deg, rgba(21,54,63,1) 0%,rgba(95,102,110,1) 100%);
+    background: linear-gradient(135deg, rgba(21,54,63,1) 0%,rgba(95,102,110,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#15363f', endColorstr='#5f666e',GradientType=1 );
+}
+
+article {
+    background: #FFFFFF;
+    max-width: 1000px;
+    height: 550px;
+    margin: 50px auto;
+    padding-left: 450px;
+    padding-top: 30px;
+    border-radius: 15px;
+    -webkit-box-shadow: 3px 3px 10px 0px rgba(18,50,57,1);
+    -moz-box-shadow: 3px 3px 10px 0px rgba(18,50,57,1);
+    box-shadow: 3px 3px 10px 0px rgba(18,50,57,1);
+    position: relative;
+}
+
+article::before {
+    content: '';
+    background: url('img/beats-img.png') no-repeat center/contain;
+    background-size: 100% 100%;
+    position: absolute;
+    display: inline-block;
+    left: 100px;
+    top: -3px;
+    width: 220px;
+    height: 590px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight:700;
+    text-transform: uppercase;
+    text-align: right;
+    margin-right: 40px;
+}
+
+.price {
+    display: block;
+    text-align: right;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #535e66;
+    margin-right: 40px;
+    position: relative;
+}
+
+.price::before {
+    content: '\0024';
+    position: absolute;
+    top: 0;
+    right: 70px;
+}
+
+form {
+    margin-top: 80px;
+    text-align: right;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+section{
+    width: 200px;
+    margin-right: 40px;
+}
+
+section:first-of-type {
+}
+
+input {
+    width: 200px;
+    height: 30px;
+    outline: none;
+    border: none;
+    border-bottom: solid 2px #535e66;
+    margin-bottom: 30px;
+    padding: 5px 40px;
+}
+
+input, input::-webkit-input-placeholder {
+    text-transform: uppercase;
+}
+
+input[type="submit"] {
+    width: 120px;
+    height: 30px;
+    background: #535e66;
+    border: none;
+    border-radius: 15px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 2px 0 0 0;
+    letter-spacing: 1px;
+    margin-top: 40px;
+    margin-right: 40px;
+    margin-bottom: 0;
+}
+
+form label {
+    position: relative;
+}
+
+form label::before {
+    font-family: 'FontAwesome', sans-serif;
+    font-size: 1.5rem;
+    color: #535353;
+    position: absolute;
+    top: -5px;
+    left: 0;
+}
+
+.name-icon::before {
+    content: '\f007';
+}
+
+.country-icon::before {
+    content: '\f0ac';
+}
+
+.address-icon::before {
+    content: '\f2bc';
+}
+
+.card-icon::before {
+    content: '\f09d';
+}
+
+.csv-icon::before {
+    content: '\f023';
+}

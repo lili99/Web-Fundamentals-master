@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 14px;
+    color: #FFFFFF;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #927057;
+}
+
+.image-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.image-container img {
+    border: solid 4px #D5C395;
+}
+
+.form {
+    max-width: 50%;
+    min-width: 500px;
+    margin: 40px auto 20px auto;
+    background-color: #D5C395;
+    position: relative;
+    padding: 40px 0;
+}
+
+.form:before {
+    content: url("img/3.png");
+    position: absolute;
+    top: -33px;
+    left: calc(50% - 34px);
+}
+
+.form h3 {
+    font-size: 2rem;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+input[name="username"], input[name="password"] {
+    display: block;
+    margin: 20px auto;
+    width: 80%;
+    height: 30px;
+    background-color: #efe1c4;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    position: relative;
+    padding-left: 40px;
+}
+
+.fa-user {
+    position: absolute;
+    left: calc(10% + 10px);
+    top: 100px;
+    font-size: 1.5rem;
+    color: #927057;
+    z-index: 2;
+}
+
+.fa-unlock-alt {
+    position: absolute;
+    left: calc(10% + 10px);
+    top: 151px;
+    font-size: 1.5rem;
+    color: #927057;
+    z-index: 2;
+}
+
+input[type="submit"] {
+    display: block;
+    height: 30px;
+    margin: 0 auto;
+    width: 80%;
+    border: none;
+    background-color: #927057;
+    color: #d7c38f;
+    font-size: 1.3rem;
+    font-weight: bold;
+    border-radius: 5px;
+    outline: none;
+}
+
+.footer {
+    text-align: center;
+    color: #EFE1C4;
+    font-size: 1rem;
+}

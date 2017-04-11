@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit User Form</title>
+    <link rel="stylesheet" href="custom-reset.css">
+    <link rel="stylesheet" href="edit-user.css">
+</head>
+<body>
+<main class="main clearfix overflow">
+    <header class="header overflow">
+        <h1>EDIT USER</h1>
+    </header>
+    <form class="left clearfix overflow" method="post">
+        <label for="username" class="left">Username</label>
+        <input class="left border" type="text" name="username" id="username">
+        <label class="left" for="email">Email</label>
+        <input class="left border" type="email" name="email" id="email">
+        <label class="left" for="phone">Phone number</label>
+        <input class="left border" type="tel" name="phone" id="phone">
+        <p class="left">User Type</p>
+        <input class="left" type="radio" name="broadband" id="broadband">
+        <label class="left shorter" for="broadband" class="inline">Broadband</label>
+        <input class="left" type="radio" name="radio" id="radio">
+        <label class="left shorter" for="radio" class="inline">Radio</label>
+        <label class="left" for="password">Change Password</label>
+        <input class="left border" type="password" name="password" id="password">
+        <p class="left">Group</p>
+        <div class="checkbox-area left border">
+            <label>
+                <input type="checkbox" name="all">All Groups
+            </label>
+            <label>
+                <input type="checkbox" name="1">Group 1
+            </label>
+            <label>
+                <input type="checkbox" name="2">Group 2
+            </label>
+            <label>
+                <input type="checkbox" name="3">Group 3
+            </label>
+            <label>
+                <input type="checkbox" name="4">Group 4
+            </label>
+        </div>
+        <p class="left">Contacts</p>
+        <a class="left" href="#">See Contacts list</a>
+        <input class="right" type="submit" value="SAVE">
+        <input class="right" type="submit" value="CANCEL">
+    </form>
+
+    <aside class="aside right">
+        <input type="checkbox" name="deactivate" id="deactivate">
+        <label for="deactivate">Deactivate</label>
+    </aside>
+
+
+</main>
+</body>
+</html>

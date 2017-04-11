@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #24437c;
+}
+
+a {
+    text-decoration: none;
+    font-size: inherit;
+}
+
+/*NAV START*/
+
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    margin: 30px 30px 0 30px;
+}
+
+.nav-brand {
+    order: 1;
+    width: 130px;
+}
+
+.nav-primary {
+    order: 2;
+    flex-grow: 2;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-item {
+    color: inherit;
+    font-size: 1rem;
+    display: inline-block;
+    line-height: 1rem;
+    padding: 15px;
+
+}
+
+.cta-btn {
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #3dc1ef;
+}
+
+.nav-item a {
+    line-height: 1rem;
+    color: inherit;
+}
+
+.nav-item:first-letter {
+    text-transform: uppercase;
+}
+
+/*NAV END*/
+/*HEADERS START*/
+
+.header-title {
+    font-variant: small-caps;
+    text-transform: capitalize;
+    font-size: 2rem;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.header-subtitle {
+    font-variant: small-caps;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    color: #537892;
+    margin-top: 30px;
+    text-align: center;
+}
+
+#button-container {
+    margin-top: 45px;
+    text-align: center;
+    font-variant: small-caps;
+    text-transform: capitalize;
+}
+
+/*HEADERS END*/
+/*SERVICES START*/
+
+.header-services {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    align-content: flex-start;
+    margin-top: 45px;
+}
+
+.service {
+    width: 300px;
+    list-style-type: none;
+    padding: 60px 40px;
+}
+
+.service:hover {
+    background-color: #3dc1ef;
+    cursor: pointer;
+}
+
+article {
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.service-title {
+    order: 1;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    align-self: flex-start;
+    width: 250px;
+    text-align: center;
+}
+
+.service-intro {
+    order: 2;
+    margin-top: 30px;
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.service-link {
+    margin-top: 30px;
+    color: inherit;
+    width: 150px;
+}
+
+/*SERVICES END*/
